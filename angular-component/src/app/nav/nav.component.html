@@ -1,6 +1,9 @@
-<div class="col-12 text-center bg-primary" [hidden]="displayNotification"><h3>{{sitename}}</h3>
-<div lass="close"><button class="btn" (click)="closeNotification()">X</button></div>
+<div class="col-12 text-center bg-primary" [hidden]="displayNotification"><h3 class="sitetitle">{{sitename}}</h3>
+</div>
+<div class="alert alert-primary" role="alert">
+    <h2>{{getSlogan()}}</h2>
+    <p>{{slogan}}</p>
+    <div lass="close"><button class="btn" (click)="closeNotification()">X</button></div>
 </div>
 
-<h2>{{getSlogan()}}</h2>
-<p>{{slogan}}</p>
+

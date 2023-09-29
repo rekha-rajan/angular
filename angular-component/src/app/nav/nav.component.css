@@ -2,3 +2,10 @@
     float:right;
     margin-top:-15px;
 }
+h3.sitetitle {
+    text-align: left;
+    padding: 20px 30px;
+    color:aliceblue;
+    text-transform: capitalize;
+    margin: 0;
+}
