@@ -1,6 +1,7 @@
-<div class="col-12 text-center bg-primary" [hidden]="displayNotification"><h3 class="sitetitle">{{sitename}}</h3>
-</div>
-<div class="alert alert-primary" role="alert">
+
+<div class="alert alert-primary" role="alert" [ngClass]="{fadeOut: displayNotification}">
+    <div class="col-12" [hidden]="displayNotification"><h3 class="sitetitle">{{sitename}}</h3>
+    </div> 
     <h2>{{getSlogan()}}</h2>
     <p>{{slogan}}</p>
     <div lass="close"><button class="btn" (click)="closeNotification()">X</button></div>

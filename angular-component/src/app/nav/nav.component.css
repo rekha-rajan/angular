@@ -4,8 +4,13 @@
 }
 h3.sitetitle {
     text-align: left;
-    padding: 20px 30px;
+    padding: 10px 0px;
     color:aliceblue;
     text-transform: capitalize;
     margin: 0;
+}
+.fadeOut {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
 }
